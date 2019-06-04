@@ -45,7 +45,8 @@ def OutputNMEA_List(file_name, nmea_str_list):
 
 # Show usage.
 def ShowUsage():
-    print("Usage: python " + os.path.basename(__file__) + " moff-file-name <output-file-name>")
+    #print("Usage: python " + os.path.basename(__file__) + " moff-file-name <output-file-name>")
+    print("Usage: (python) " + os.path.basename(sys.argv[0]) + " moff-file-name <output-file-name>")
 
 # Main
 # Get Input & Output File names.
